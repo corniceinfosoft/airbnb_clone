@@ -6,6 +6,7 @@
 
 body {
   background: #fafafa;
+  overflow-x: hidden;
 }
 
 header {
