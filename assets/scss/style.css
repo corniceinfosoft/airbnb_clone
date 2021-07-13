@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.2rem 0;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+header .brand_logo svg {
+  color: #fafafa;
+}
+header ul.header_menu_list, header ul.options_menus {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+header ul.header_menu_list li a, header ul.options_menus li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 10px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header ul.header_menu_list li a:hover, header ul.options_menus li a:hover {
+  color: #c1c1c1;
+}
+header ul.header_menu_list li.become_a_host_btn a:hover, header ul.options_menus li.become_a_host_btn a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+header ul.header_menu_list button.btn_toggler, header ul.options_menus button.btn_toggler {
+  color: #717171;
+  background: #fff;
+  border-radius: 21px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+}
+header ul.header_menu_list button.btn_toggler span.material-icons, header ul.options_menus button.btn_toggler span.material-icons {
+  font-size: 28px;
+}
+header ul.header_menu_list button.btn_toggler:hover, header ul.options_menus button.btn_toggler:hover {
+  cursor: pointer;
+}
+
+.top_header_section {
+  background-image: url("/assets/images/backgrounds/background_img_top.webp");
+  background-size: contain;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: 30% auto 30%;
+}
+.top_header_section .search_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 32px;
+  width: 100%;
+  height: 66px;
+  position: relative;
+  top: 10%;
+  border: 1px solid #dddddd;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 16px 32px, rgba(0, 0, 0, 0.1) 0px 3px 8px;
+  --big-search-form-background: #F7F7F7;
+  background-color: #f7f7f7;
+  color: #222222;
+}
+.top_header_section .search_container .search_container_block {
+  display: grid;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.top_header_section .search_container .search_container_block span.label {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top_header_section .search_container .search_container_block span.placeholder {
+  color: #8d8b8b;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top_header_section .search_container .search_container_block:hover {
+  border-radius: 32px;
+  background-color: #dedede;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.top_header_section .search_container .location_container, .top_header_section .search_container .check_in_container, .top_header_section .search_container .check_out_container {
+  border-right: 1px solid #dedede;
+  border-radius: 0;
+}
+.top_header_section .search_container .search_btn {
+  background: #FF385C;
+  padding: 10px;
+  border-radius: 100%;
+}
+.top_header_section .search_container .search_btn button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
