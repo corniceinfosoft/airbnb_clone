@@ -59,7 +59,7 @@ header ul.header_menu_list button.btn_toggler:hover, header ul.options_menus but
 }
 
 .top_header_section {
-  background-image: url("assets/images/backgrounds/background_img_top.webp");
+  background-image: url("../../assets/images/backgrounds/background_img_top.webp");
   background-size: contain;
   width: 100%;
   height: 80vh;
